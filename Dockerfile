@@ -1,0 +1,1 @@
+dockerfile\n# Use the official Mosquitto Docker image as the base\nFROM eclipse-mosquitto:2.0.22\n\n# Copy your custom config file into the container\'s config directory\nCOPY mosquitto.conf /mosquitto/config/mosquitto.conf\n
